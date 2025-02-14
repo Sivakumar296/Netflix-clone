@@ -1,0 +1,66 @@
+
+@media only screen and (min-width:0) and (max-width:480px) {
+    body{
+        background-color: black;
+    }
+    .footer{
+        margin-top: -100px;
+    }
+}
+@media only screen and (min-width:480) and (max-width:680px) {
+    body{
+        background-image: url(./media/backround.jpg);
+        background-repeat: no-repeat;
+    }
+    .footer-line{
+        display: none;
+    }
+}
+@media only screen and (min-width:680px) and (max-width:2500px) {
+    body{
+        background-image: url(./media/backround.jpg);
+        background-repeat: no-repeat;
+    }
+    .footer-line{
+        display: none;
+    }
+}
+.box{
+    background-color: rgb(0,0,0,0.9);
+    color: aliceblue;
+    height:700px;
+    min-width:auto;
+    max-width: 450px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+}
+.input{
+    width:100%;
+    background-color: rgb(0,0,0,0.5);
+    height: 50px;
+    color: aliceblue;
+    border-color: rgb(94, 95, 95);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+button{
+    width: 100%;
+    background-color: rgb(228, 8, 8);
+}
+select {
+    background-color: rgb(0, 0, 0, 0);
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 33px;
+    border-color: rgb(73, 75, 78);
+    width: 0px;
+}
+a,p{
+    color: rgb(170, 163, 163);
+}
+.footer{
+    background-color: rgb(0,0,0,0.9);
+}
